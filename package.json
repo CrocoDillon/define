@@ -1,0 +1,16 @@
+{
+  "name": "define",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "./node_modules/uglify-js/bin/uglifyjs define.js --compress --mangle --output define.min.js",
+    "test": "./node_modules/mocha/bin/mocha test/**"
+  },
+  "author": "Dillon de Voor (http://crocodillon.com)",
+  "license": "CC0",
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.3.0",
+    "uglify-js": "~2.4.24"
+  }
+}
