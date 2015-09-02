@@ -19,18 +19,20 @@ It does not support:
 
 If you need that you might consider something else like requirejs (15kB minified).
 
-## Minify define.js to define.min.js
+## Minify define.js
 
-```bash
+```
 $ npm install
 $ npm run build
 ```
 
+The output will be define.min.js
+
 ## Run tests
 
-I implemented some of the tests from amdjs/amdjs-tests, run them with:
+I implemented some of the tests from [amdjs/amdjs-tests](https://github.com/amdjs/amdjs-tests/), run them with:
 
-```bash
+```
 $ npm install
 $ npm run test
 ```
